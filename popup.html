@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Patua+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="selection">
+        <form action="" id="addForm">
+          <label for="">Amount:</label>
+          <select name="amount" id="amount">
+            <option value="0.33">0.33</option>
+            <option value="0.5">0.5</option>
+            <option value="1">1</option>
+            <option value="1.5">1.5</option>
+            <option value="2">2</option>
+          </select>
+          <input type="submit" value="Add" />
+        </form>
+        <hr />
+        Today's consumption: <span id="today"></span> / <span id="goal"></span>
+      </div>
+    </div>
+  </body>
+  <script src="popup.js"></script>
+</html>

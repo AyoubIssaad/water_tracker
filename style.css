@@ -1,0 +1,118 @@
+/* Color Palette */
+/*
+/* #FFEDE1
+/* #F9FBF2
+/* #D7F9FF
+/* #AFCBFF
+/* #0E1C36
+/* OR
+/* #EEEEFF
+/* #7F7CAF
+/* #9FB4C7
+/* #28587B
+/* #9FB798
+*/
+/* End Color Palette */
+html {
+  height: 100%;
+  width: 200px;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body {
+  background-color: #ffffff;
+  font-family: "Patua One", cursive;
+  font-size: 0.8em;
+  color: #292f36;
+}
+.container {
+}
+
+/* On Off Style */
+/* .onOffSwitch {
+  position: relative;
+  width: 76px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+.onOffSwitch-checkbox {
+  display: none;
+}
+.onOffSwitch-label {
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  border: 2px solid #cfcfcf;
+  border-radius: 20px;
+}
+.onOffSwitch-inner {
+  display: block;
+  width: 200%;
+  margin-left: -100%;
+  transition: margin 0.3s ease-in 0s;
+}
+.onOffSwitch-inner:before,
+.onOffSwitch-inner:after {
+  display: block;
+  float: left;
+  width: 50%;
+  height: 21px;
+  padding: 0;
+  line-height: 21px;
+  font-size: 14px;
+  color: white;
+  font-family: Trebuchet, Arial, sans-serif;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+.onOffSwitch-inner:before {
+  content: "ON";
+  padding-left: 10px;
+  background-color: #4ecdc4;
+  color: #ffffff;
+}
+.onOffSwitch-inner:after {
+  content: "OFF";
+  padding-right: 10px;
+  background-color: #eeeeee;
+  color: #999999;
+  text-align: right;
+}
+.onOffSwitch-switch {
+  display: block;
+  width: 16px;
+  margin: 2.5px;
+  background: #ffffff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 51px;
+  border: 2px solid #cfcfcf;
+  border-radius: 20px;
+  transition: all 0.3s ease-in 0s;
+}
+.onOffSwitch-checkbox:checked + .onOffSwitch-label .onOffSwitch-inner {
+  margin-left: 0;
+}
+.onOffSwitch-checkbox:checked + .onOffSwitch-label .onOffSwitch-switch {
+  right: 0px;
+} */
+/* End On Off Style */
+label {
+  /* font-weight: bold; */
+}
+.inline {
+  display: inline-block;
+}
+.alert {
+  font-size: 0.8em;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+hr {
+  border-top: 1px solid #4ecdc4;
+}

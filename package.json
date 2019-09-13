@@ -1,0 +1,19 @@
+{
+  "name": "simplegreeting",
+  "version": "1.0.0",
+  "description": "my first chrome extension",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AyoubIssaad/SimpleGreeting.git"
+  },
+  "author": "AyoubIssaad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AyoubIssaad/SimpleGreeting/issues"
+  },
+  "homepage": "https://github.com/AyoubIssaad/SimpleGreeting#readme"
+}

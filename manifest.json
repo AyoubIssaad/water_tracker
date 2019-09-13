@@ -1,0 +1,36 @@
+{
+  "name": "Water Tracker",
+  "version": "1.0",
+  "description": "This Chrome extension to track my water consumption at work",
+  "manifest_version": 2,
+  "incognito": "split",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["main.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "permissions": ["activeTab", "storage"],
+  "icons": {
+    "128": "icons/128.png",
+    "32": "icons/32.png",
+    "24": "icons/24.png",
+    "16": "icons/16.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      // optional
+      "128": "icons/128.png",
+      "32": "icons/32.png",
+      "24": "icons/24.png",
+      "16": "icons/16.png"
+    },
+    "default_title": "Water Tracker", // optional; shown in tooltip
+    "default_popup": "popup.html" // optional
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
