@@ -1,6 +1,9 @@
-# Regex Locator
-Chrome extension to help locate Regex Matches on web pages.
+# Watery
 
-Originally I had the intention to write a chrome extension to help locate phone numbers in different formats within web pages, which means trying to match dom text nodes to different regex expressions, that's why I decided to make it a global thing and allow the final user to add their own regular expressions.
+Simple chrome extension to keep track of my daily water consumption
 
-Best of luck for me.
+I was on the #75HARD challenge, and one of the daily tasks of the challenge is to drink 3.5 Litres of water.
+So i had the idea of creating this, I know there is a lot of more sofisticated tools out there, but I'm a developer, why not take the challenge.
+
+I'll try to maintain this project,
+And if I find some time I'll make it better and better.
