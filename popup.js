@@ -13,13 +13,16 @@ window.onload = function () {
                 let db = data.consumption;
                 db.push(todayConsumption);
                 chrome.storage.local.set({ consumption: db});
+                document.getElementById('today').innerHTML = '0';
+                document.getElementById('goal').innerHTML = data.goal;
+            }else{
+                document.getElementById('today').innerHTML = data.consumption[data.consumption.length - 1].amount;
+                document.getElementById('goal').innerHTML = data.goal;
             }
     })
 
-
     chrome.storage.local.get({ goal: 3.5, consumption: [] }, data => {
-        document.getElementById('today').innerHTML = data.consumption[data.consumption.length - 1].amount;
-        document.getElementById('goal').innerHTML = data.goal;
+
     })
 
     var addForm = document.getElementById('addForm');
@@ -41,9 +44,9 @@ window.onload = function () {
             newData.push(newDaily);
             //console.log("TCL: newData", newData)
             chrome.storage.local.set({ consumption: newData });
+            document.getElementById('today').innerHTML = newAmount;
         })
     })
-
 }
 // const enableDisable = (currentState) => chrome.storage.local.set({ 'isEnabled': !currentState });
 

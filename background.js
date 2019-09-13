@@ -4,6 +4,17 @@ chrome.runtime.onInstalled.addListener(function (details) {
         chrome.storage.local.set({ isEnabled: true });
         chrome.storage.local.set({ goal: 3.5 });
         chrome.storage.local.set({ consumption: [] });
+        chrome.notifications.create(
+            'name-for-notification', {
+                type: 'progress',
+                iconUrl: 'icons/128.png',
+            title: "This is a notification",
+            message: "hello there!"
+        },
+
+            function () { }
+
+        );
 
     } else if (details.reason == "update") {
         chrome.storage.local.get('isEnabled', function (data) {

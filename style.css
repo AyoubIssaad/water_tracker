@@ -26,82 +26,12 @@ body {
   background-color: #ffffff;
   font-family: "Patua One", cursive;
   font-size: 0.8em;
-  color: #292f36;
+  color: #0f5e9c;
+  text-align: center;
 }
 .container {
 }
 
-/* On Off Style */
-/* .onOffSwitch {
-  position: relative;
-  width: 76px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-}
-.onOffSwitch-checkbox {
-  display: none;
-}
-.onOffSwitch-label {
-  display: block;
-  overflow: hidden;
-  cursor: pointer;
-  border: 2px solid #cfcfcf;
-  border-radius: 20px;
-}
-.onOffSwitch-inner {
-  display: block;
-  width: 200%;
-  margin-left: -100%;
-  transition: margin 0.3s ease-in 0s;
-}
-.onOffSwitch-inner:before,
-.onOffSwitch-inner:after {
-  display: block;
-  float: left;
-  width: 50%;
-  height: 21px;
-  padding: 0;
-  line-height: 21px;
-  font-size: 14px;
-  color: white;
-  font-family: Trebuchet, Arial, sans-serif;
-  font-weight: bold;
-  box-sizing: border-box;
-}
-.onOffSwitch-inner:before {
-  content: "ON";
-  padding-left: 10px;
-  background-color: #4ecdc4;
-  color: #ffffff;
-}
-.onOffSwitch-inner:after {
-  content: "OFF";
-  padding-right: 10px;
-  background-color: #eeeeee;
-  color: #999999;
-  text-align: right;
-}
-.onOffSwitch-switch {
-  display: block;
-  width: 16px;
-  margin: 2.5px;
-  background: #ffffff;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 51px;
-  border: 2px solid #cfcfcf;
-  border-radius: 20px;
-  transition: all 0.3s ease-in 0s;
-}
-.onOffSwitch-checkbox:checked + .onOffSwitch-label .onOffSwitch-inner {
-  margin-left: 0;
-}
-.onOffSwitch-checkbox:checked + .onOffSwitch-label .onOffSwitch-switch {
-  right: 0px;
-} */
-/* End On Off Style */
 label {
   /* font-weight: bold; */
 }
@@ -115,4 +45,28 @@ label {
 }
 hr {
   border-top: 1px solid #4ecdc4;
+}
+input {
+  border: 1px solid #0f5e9c;
+  background: #ffffff;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+input[type="submit"] {
+  padding: 2px 10px;
+
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #74ccf4;
+  border: 1px solid #74ccf4;
+  color: white;
+  font-weight: bold;
+}
+.dailyConsumption {
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: 10px;
+  color: #74ccf4;
 }

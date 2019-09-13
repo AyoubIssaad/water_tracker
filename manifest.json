@@ -11,7 +11,7 @@
       "run_at": "document_idle"
     }
   ],
-  "permissions": ["activeTab", "storage"],
+  "permissions": ["activeTab", "storage", "notifications"],
   "icons": {
     "128": "icons/128.png",
     "32": "icons/32.png",
