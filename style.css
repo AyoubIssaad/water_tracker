@@ -23,10 +23,11 @@ html {
   box-sizing: border-box;
 }
 body {
-  background-color: #ffffff;
+  /* 0f5e9c */
+  background-color: #223d49;
   font-family: "Patua One", cursive;
   font-size: 0.8em;
-  color: #0f5e9c;
+  color: #FFFFFF;
   text-align: center;
 }
 .container {
@@ -65,13 +66,14 @@ input[type="submit"]:hover {
 }
 .dailyConsumption {
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1.9em;
   text-align: center;
   margin-top: 10px;
+  margin-bottom: 10px;
   color: #74ccf4;
 }
 
 
 rect{
-  transition: all 2s;
+  transition: all 1s;
 }
